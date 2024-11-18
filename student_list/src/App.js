@@ -1,12 +1,12 @@
 import "./App.css";
 import "./App.css";
 import React from "react";
-import StudentList from "./components/StudentList";
+import ListComponent from "./class_component/ListComponent";
 
 function App() {
 	return (
 		<>
-			<StudentList />
+			<ListComponent />
 		</>
 	);
 }

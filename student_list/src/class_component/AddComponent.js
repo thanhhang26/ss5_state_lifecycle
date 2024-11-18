@@ -12,9 +12,7 @@ class AddComponent extends React.Component {
 			},
 		};
 	}
-
 	handleChange = (e) => {
-		console.log(e);
 		const { name, value } = e.target;
 		this.setState({
 			...this.state,
@@ -28,7 +26,6 @@ class AddComponent extends React.Component {
 	handleSubmit = (e) => {
 		// Ngan chan hanh vi mac dinh cua form
 		e.preventDefault();
-		console.log(this.state.student);
 		this.props.handleAddStudent(this.state.student);
 	};
 
